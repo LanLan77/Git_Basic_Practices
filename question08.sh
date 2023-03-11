@@ -1,4 +1,4 @@
 mkdir dir2
 mv ./*.txt dir2/
-git add dir2/*.txt
+git add .
 git commit -m "move all text files to dir2"
