@@ -1,4 +1,4 @@
-## Git常用指令
+# Git常用指令
 
 ### 配置用户名和邮箱
 
@@ -52,8 +52,8 @@ $ git push origin <branch_name>
 ```bash
 $ git pull origin <branch_name>
 ```
-
-## Shell常用指令
+---
+# Shell常用指令
 
 ### 切换和操作目录
 
@@ -94,28 +94,3 @@ $ mv file.txt /path/to/destination
 $ rm file.txt
 ```
 
-### Git配置指令的Markdown笔记
-
-以下是你提供的两条指令的Markdown笔记：
-
-#### 配置Git用户名和邮箱
-
-配置当前仓库的用户名：
-```markdown
-$ git config user.name "Your Username"
-```
-
-配置全局的用户名（适用于所有仓库）：
-```markdown
-$ git config --global user.name "Your Username"
-```
-
-配置当前仓库的邮箱：
-```markdown
-$ git config user.email "youremail@example.com"
-```
-
-配置全局的邮箱（适用于所有仓库）：
-```markdown
-$ git config --global user.email "youremail@example.com"
-```
